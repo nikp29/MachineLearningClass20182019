@@ -1,0 +1,25 @@
+Variable,Definition,Key
+survival,Survival,"0 = No, 1 = Yes"
+pclass,Ticket class,"1 = 1st, 2 = 2nd, 3 = 3rd"
+sex,Sex,
+Age,Age in years,
+sibsp,# of siblings / spouses aboard the Titanic,
+parch,# of parents / children aboard the Titanic,
+ticket,Ticket number,
+fare,Passenger fare,
+cabin,Cabin number,
+embarked,Port of Embarkation,"C = Cherbourg, Q = Queenstown, S = Southampton"
+,,
+,,
+,,
+Variable Notes,,
+pclass: Passenger class. ,,
+body: body identification number,,
+"age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5",,
+embarked: port of embarktion (C = Cherbourg; Q = Queenstown; S = Southampton),,
+sibsp:  number of siblings aboard. ,,
+ticket: ticket number,,
+"parch: number of parents or children aboard (Some children travelled only with a nanny, therefore parch=0 for them.)",,
+fare: Passenger Fare (in British pounds),,
+boat: lifeboat number,,
+"survival: (0=no, 1=yes)",,
